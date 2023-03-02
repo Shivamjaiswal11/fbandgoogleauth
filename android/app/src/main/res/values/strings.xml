@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">foodcort</string>
+    <string name="facebook_app_id">578586563882518</string>
+    <string name="fb_login_protocol_scheme">fb578586563882518</string>
+    <string name="facebook_client_token">ecce10a5a88fc74081ec84dba0726edc</string>
+
+</resources>
