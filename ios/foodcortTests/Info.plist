@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<key>UIUserNotificationType</key>
+<dict>
+  <key>UIUserNotificationTypeAlert</key>
+  <string></string>
+  <key>UIUserNotificationTypeBadge</key>
+  <string></string>
+  <key>UIUserNotificationTypeSound</key>
+  <string></string>
+</dict>
+<key>NSRemoteNotificationType</key>
+<string></string>
+<key>NSAllowsArbitraryLoads</key>
+<true/>
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

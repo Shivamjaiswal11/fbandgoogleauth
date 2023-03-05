@@ -11,11 +11,16 @@ import NavigationString from '../Navigation/NavigationString';
 import COLORS from '../Theme/Color';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-
+import { localNotification1 } from '../Notify/LocalPushNotifiction';
 export default function SplashScreen({navigation}) {
   // setTimeout(() => {
   //     navigation.replace(NavigationString.LoginScreen);
   // }, 3000);
+
+  const callnotifiy  =  ()=>{
+     localNotification1();
+  }
+
   const nav = () => {
     navigation.navigate(NavigationString.LoginScreen);
   };
@@ -40,7 +45,7 @@ export default function SplashScreen({navigation}) {
         ]}>
         Food deliver service
       </Text>
-      <TouchableOpacity style={styles.button} onPress={e => nav()}>
+      <TouchableOpacity style={styles.button} onPress={(e)=>callnotifiy()}>
         <Ionicons name="chevron-down" size={30} color="#F3F4FB" />
       </TouchableOpacity>
       {/* <MaterialCommunityIcons
